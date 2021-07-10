@@ -1,0 +1,24 @@
+div.registration-form-panel {
+    width: 500px;
+    margin-top:0;
+}
+
+div.registration-header-panel {
+    background-color: green;
+}
+
+div.registration-header-panel p {
+    text-align: center;
+    font-size: 18px;
+    color: white; 
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+div.btn-submit-section {
+    float: right;
+}
+
+div.btn-submit-section button {
+    background-color: green; 
+}

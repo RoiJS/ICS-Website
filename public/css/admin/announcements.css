@@ -1,0 +1,19 @@
+.table-announcements img.announcement-thumbnail {
+    height: auto;
+    width: 95%;
+}
+
+.table-announcements ul.dropdown-menu li a {
+    cursor: pointer;
+}
+
+.table-announcements button,
+.table-announcements a {
+    margin-right: 15px;
+}
+
+.table-announcements div.filter-cell span.search-text {
+    min-width: 6em;
+    align-self: center;
+    font-size: 1.2em;
+}

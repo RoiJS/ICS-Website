@@ -1,0 +1,49 @@
+div.header {
+    margin-bottom: 2.5em;
+}
+
+div.ics-information-header {
+    width: 100%;
+    display: flex;
+}
+
+div.ics-information-header div.ics-official-logo-section {
+   width: 10em;
+   height: 10em;
+   margin-right: 1em;
+   border-radius: 50%;
+   overflow: hidden;
+   border: 5px double #675f5f;
+}
+
+div.ics-information-header div.ics-official-logo-section img {
+   width: 100%;
+   height: auto;
+}
+
+div.ics-information-header div.ics-official-website-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.ics-information-header div.ics-official-website-text-section label.organization-name{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+div#topnav ul.sign-in-option {
+    margin-left: 10px;
+}
+
+div#topnav ul.sign-in-option li,
+div#topnav ul.sign-in-option li a
+ {
+    border-radius: 8px;
+}
+
+div#topnav ul.sign-in-option li:hover {
+    box-shadow: 3px 2px 4px black;
+}
+

@@ -1,0 +1,46 @@
+.faculty-image-container {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #bdbdbd;
+    overflow: hidden;
+    margin: auto;
+}
+
+.update-profile-teacher-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    margin: auto;
+    border: 2px solid #bdbdbd;
+}
+
+.update-profile-teacher-photo img {
+    border-radius: 50%;
+    margin: auto;
+}
+
+.list-faculty-photo {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid #bdbdbd;
+}
+
+.list-faculty-photo img {
+    width: 100%;
+}
+
+table.table-faculty-list tr td {
+    vertical-align: middle !important;
+}
+
+table.table-faculty-list tr td.student-status {
+    text-align: center;
+}
+
+table.table-faculty-list thead td {
+    font-weight:bold;
+    text-align:center;
+}

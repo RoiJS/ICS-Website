@@ -1,0 +1,86 @@
+div#select-subject-section {
+    display: flex;
+}
+
+div#subjects-section .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#subjects-section .header-container button.btn-print-curriculum {
+    width: 100px;
+}
+
+div#select-subject-section .form-group {
+    padding: 5px;
+}
+
+div#select-subject-section #subject-list-section {
+    flex: 1;
+}
+
+div.set-curriculum-subjects-container {
+    padding-right: 0;
+}
+
+
+div.curriculum-details-container {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif; 
+}
+
+div.curriculum-details-container .header-details {
+    text-align: center;
+    margin-bottom: 4em;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+div.curriculum-details-container .body-details .year-level-subject-details {
+    margin-bottom: 3em;
+}
+
+div.curriculum-details-container .body-details .subject-details-header {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+div.curriculum-details-container .body-details .subject-details-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.curriculum-details-container .body-details .subject-details-body .semester-header{
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+div.curriculum-details-container .body-details .subject-details-body .subject-list table {
+    font-size: 0.8em;
+}
+
+div.curriculum-details-container .body-details .subject-details-body .subject-list table td.leclab-value{
+    text-align: center;
+}
+
+div.curriculum-details-container .body-details .subject-details-body .subject-list table td.leclab-total-value{
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+div.curriculum-details-container .body-details .subject-details-body .subject-list table td.leclab-total-value{
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+div.curriculum-details-container .body-details .subject-details-body .semester-subject {
+    width: 45%;
+    margin-bottom: 2.5em;
+}

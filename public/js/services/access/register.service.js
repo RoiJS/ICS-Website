@@ -1,0 +1,13 @@
+app.service('registerAccountService', ['$http', function($http){
+    
+    var main_uri = "/access"
+    this.saveNewAccount = (account) => {
+        return $http.post(`${main_uri}/save_new_account`,{account})
+    }
+
+    this.verifyStudentIdExists = (studentId) => {
+        return $http.post(`${main_uri}/verify_student_id_exists`, { studentId }).then((res) => {
+            return res.data.result;
+        });
+    }
+}]);

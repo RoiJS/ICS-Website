@@ -1,0 +1,21 @@
+div.ics-details-section {
+    display: flex;
+    flex-direction: column;    
+    padding: 0.8em;
+    margin-bottom: 1.5em;
+}
+
+div.ics-details-section div.ics-details-header label {
+    font-size: 1.4em;
+}
+
+div.ics-details-section div.ics-details-header {
+    border-bottom: 1px solid #dad9d9;
+    padding-bottom: 1em;
+}
+
+div.ics-details-section div.ics-details-content label {
+    font-size: 1em;
+    margin-top: 1em;
+}
+

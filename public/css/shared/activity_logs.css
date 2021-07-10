@@ -1,0 +1,11 @@
+li.notifications-menu ul.dropdown-menu {
+    box-shadow: 1px 1px 12px #868585;
+}
+
+div.activity-logs-container {
+    max-height: 300px;
+}
+
+div.activity-logs-container table.activity-logs td.activity-datetime {
+    width: 33%;
+}

@@ -1,0 +1,56 @@
+div#create-subject-form-view 
+div.create-subject-panel {
+    display: flex;
+}
+
+div#create-subject-form-view 
+div.create-subject-panel
+div.ctrl-code,
+
+div#create-subject-form-view 
+div.create-subject-panel
+div.ctrl-description
+ {
+    flex-grow: 1;
+    margin-right: 1em;
+}
+
+div#create-subject-form-view 
+div.create-subject-panel 
+div.ctrl-unit-section {
+    display: flex;
+    flex-direction: row;
+}
+
+div#create-subject-form-view 
+div.create-subject-panel 
+div.ctrl-unit-section 
+div.ctrl-lec-unit {
+    margin-right: 10px;
+}
+
+div#create-subject-form-view 
+div.create-subject-panel 
+div.ctrl-unit-section 
+div.ctrl-lab-unit {
+    margin-left: 10px;
+}
+
+div#create-subject-form-view div.box-footer {
+    display: flex;
+    padding-top: 0; 
+}
+
+div#create-subject-form-view div.box-footer button.btn-save-subject {
+    margin-right: 1em; 
+}
+
+div#create-subject-form-view div.box-footer div.space {
+    flex-grow: 1;
+}
+
+div#create-subject-form-view div.box-footer {
+    display: flex;
+    padding-top: 0; 
+}
+

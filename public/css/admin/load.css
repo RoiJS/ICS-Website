@@ -1,0 +1,46 @@
+div.faculty-load-settings-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.faculty-load-settings-section .load-dropdown {
+    width: 63%;
+}
+
+div.faculty-load-settings-section .load-options {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+div.faculty-load-settings-section .load-options .load-set {
+    margin-right: 5px;
+}
+
+
+div#box-subject-list div.subject-filter-settings {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#box-subject-list div.subject-filter-button-options button.btn-add-selected-subject {
+    margin-top: 26px;
+}
+
+div#box-subject-list div.curriculum-school-year-contol {
+    width: 20%;
+}
+
+div#box-subject-list div.course-control {
+    width: 20%;
+}
+
+div#box-subject-list div.subject-name-control {
+    width: 45%;
+}
+
+div#box-subject-list div.subject-filter-button-options {
+    width: 11%;
+}
+
+

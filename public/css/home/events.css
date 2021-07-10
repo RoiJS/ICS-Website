@@ -1,0 +1,108 @@
+div.upcoming-events-section {
+    display: flex;
+}
+
+div.upcoming-events-section table thead th{
+    background-color: #00a65a;
+}
+
+div.upcoming-events-section table tbody tr td.fc-today {
+    background-color: #0ed67a;
+}
+
+div.upcoming-events-section div.upcoming-event-list {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 1em;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item {
+    display: flex;
+    height: 4.5em;
+
+    border-radius: 0.5em;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 2px #ababab;
+    margin-bottom: 1em;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item:hover {
+    box-shadow: 3px 2px 15px #ababab;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-date-from-section {
+    background-color: #00a65a;
+    width: 4.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-date-to-section {
+    background-color: #00a65a;
+    width: 4.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item label.event-to-text {
+    align-self: center;
+    margin: 0 0.5em;
+    font-weight: bold;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-name-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 1em 0 1em;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-name {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-date-from-section div.event-date,
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-date-to-section div.event-date {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-date-from-section div.event-date span.day,
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-date-to-section div.event-date span.day {
+    font-size: 2em;
+    color: white;
+}
+
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-date-from-section div.event-date span.month,
+div.upcoming-events-section div.upcoming-event-list div.upcoming-event-item div.event-date-to-section div.event-date span.month {
+    color: white;
+    font-size: 1em;
+}
+
+div.upcoming-events-section div.calendar-section {
+    display: flex;
+    flex: 0.8;
+    margin-bottom: 3em;
+}
+
+div.see-more-events-section a {
+    color: white;
+    background-color: #00a65a;
+    padding: 8px;
+    float: right;
+}
+
+div.all-events-section {
+    flex-direction: column;
+}

@@ -1,0 +1,31 @@
+.lbl-empty-message-list {
+    margin-bottom: 0px;
+}
+
+table.table-messages td.col-message-sender {
+    width: 180px;
+}
+
+table.table-messages td.col-message-sender a.txt-message-sender {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 170px;
+}
+
+table.table-messages td.col-message-content {
+    width: 410px;
+}
+
+table.table-messages td.col-message-content div.txt-message-content {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 370px;
+}
+
+table.table-messages td.col-message-options {
+    width: 100px;
+}

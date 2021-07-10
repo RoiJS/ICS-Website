@@ -1,0 +1,146 @@
+.error-control {
+    border: 1px solid #dd4b39;
+}
+
+span.error-control-message { 
+    display: block;
+    margin-top: 7px;
+    color: #dd4b39;
+    font-weight: bold;
+} 
+
+span.required-field {
+    color: red;
+}
+
+label.lbl-note-message {
+    font-style: italic;
+    color: red;
+    font-size: 11px;
+}
+
+.app-back-drop {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.app-loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #00a65a;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+.loading-message {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.nodisplay {
+    display: none;
+}
+/***************** Dialog Properties ***********************/
+div.ZebraDialogOverlay{
+    z-index: 9999;
+    background: #000000;
+}
+
+div.ZebraDialog {
+    z-index: 99999;
+}
+
+.toolbar-header-settings-container {
+    display: flex;
+}
+
+.toolbar-header-settings-container span{
+    align-self: center;
+}
+
+.toolbar-header-user-image-container {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #bdbdbd;
+    margin-right: 0.5em;
+}
+
+.toolbar-header-user-image-container > img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-menu-user-image-container {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 2px solid #bdbdbd;
+}
+
+.navbar-menu-user-image-container img.user-image {
+    width: 100%;
+    height: auto;
+}
+
+.right-navbar-menu-user-image-container {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border: 3px solid #bdbdbd;
+}
+
+.right-navbar-menu-user-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.deactivate-status {
+    background-color: #e2e2e2;
+    color: #bdbdbd;
+}
+
+.control-field-info {
+    color: #fb3c25;
+    font-size: 12px;
+}
+
+li.dropdown.user.user-menu a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+div.user-image-container,
+div.logo-image-container {
+    border-radius: 50%;
+    border: 2px double #b9babb;
+    overflow: hidden;
+} 
+
+div.user-image-container img,
+div.logo-image-container img {
+    width: 100%;
+    height: auto;
+} 
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

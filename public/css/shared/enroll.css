@@ -1,0 +1,36 @@
+div.student-image-container {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border: 3px solid  #999999;
+    border-radius: 50%;
+    margin: 1.5em;
+}
+
+div.student-image-container img.student-image {
+    height: auto;
+    width: 100%;
+}
+
+.student-information-panel {
+    margin: 1.5em;
+    border-top: 2px solid #d5e0d7;
+}
+
+table.table-class-subjects td .col-option {
+    width: 100%;
+}
+
+div.enroll-subjects-section {
+    display: flex;
+    flex-direction: column;
+}
+
+div.subject-filetr {
+    display: flex;
+}
+
+div.subject-filetr div.filter-field {
+    margin-right: 15px;
+}
+

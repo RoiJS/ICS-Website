@@ -1,0 +1,232 @@
+div.homepage label.section-title {
+    font-size: 1.3em;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+div.latest-announcement-list {
+    display: flex;
+    margin-top: 1em;
+    border: 1px;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+div.latest-announcement-list div.latest-announcement-item {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    overflow: hidden;
+    padding: 1em;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+
+   box-shadow: 1px 1px 2px #ababab;
+   border-radius: 0.5em;
+   margin-right: 12px;
+   margin-bottom: 20px;
+}
+
+div.latest-announcement-list div.latest-announcement-item:hover {
+   box-shadow: 3px 3px 15px #ababab;
+   border-radius: 0.5em;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.header-section {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.header-section .thumbnail {
+    width: 35%;
+    margin-right: 1.5em;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.header-section .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.header-section .announcement-info span.title { 
+    flex: 1;
+    font-weight: bold;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.content-section {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 15em;
+    margin-bottom: 1em;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.footer-section .readmore {
+   margin: 0;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.footer-section{
+   margin-bottom: 1em;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.announcement-content  {
+   display: flex;
+   flex-direction: column;
+}
+
+div.latest-announcement-list div.latest-announcement-item div.header-section span.posted-date  {
+  font-size: 0.8em;
+}
+
+div.see-more-announcements-section a {
+    color: white; 
+    background-color: #00a65a;
+    padding: 8px;
+    float: right;
+}
+
+div.scroll-view-announcement-container i.option-previous-announcement,
+div.scroll-view-announcement-container i.option-next-announcement {
+    background-color: #00a65a24;
+    padding: 15px 30px;
+    font-size: 5em;
+    border-radius: 50%;
+}
+
+div.scroll-view-announcement-container i.option-previous-announcement:hover,
+div.scroll-view-announcement-container i.option-next-announcement:hover {
+    background-color: #00a65aa1;
+}
+
+div.scroll-view-announcement-container#featured_slide a {
+    background-color: unset;
+}
+
+div.scroll-view-announcement-container a#featured-item-next {
+    right: 65px;
+    z-index: 9;
+}
+
+div.scroll-view-announcement-container a#featured-item-prev {
+    left: 5px;
+    z-index: 9;
+}
+
+div.scroll-view-announcement-container div.announcement-item-content {
+    display: flex;
+    padding: 1em;
+}
+
+div.scroll-view-announcement-container div.announcement-item-content div.content-info {
+    width: 60%;
+    padding-right: 2em;
+}
+
+div.scroll-view-announcement-container div.announcement-item-content div.content-image img {
+    width: 100%;
+    height: auto;
+}
+
+div.scroll-view-announcement-container div#featured_content li {
+    height: 280px;
+}
+
+div.scroll-view-announcement-container#featured_slide div.announcement-item-content div.content-info div.title a {
+    font-size: 2.5em;
+    color: #2f2f2f;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    height: 1em;
+}
+
+div.scroll-view-announcement-container#featured_slide div.announcement-item-content div.content-info div.title a:hover {
+    color: #00a65a;
+}
+
+div.scroll-view-announcement-container#featured_slide div.announcement-item-content div.content-info div.description {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.5em;
+    max-height: 18em;
+    margin-top: 1em;
+    padding-right: 1em;
+}
+
+div.scroll-view-announcement-container#featured_slide div.announcement-item-content div.content-info div.description:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div.scroll-view-announcement-container#featured_slide div.announcement-item-content div.content-info div.description:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+}
+
+div.side-announcement h2.title {
+    font-size: 1.1em !important;
+}
+
+table.announcement-list div.announcement-item {
+    display: flex;
+}
+
+table.announcement-list div.announcement-item div.image-section {
+    margin-right: 1em;
+}
+
+table.announcement-list div.announcement-item div.image-section div.image-container {
+    width: 14em;
+    height: auto;
+    border: 0.4em double #e3e3e3;
+}
+
+table.announcement-list div.announcement-item div.image-section div.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+table.announcement-list div.announcement-item div.information-section div.header-section {
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+table.announcement-list div.announcement-item div.information-section div.header-section label.title {
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
+}
+
+table.announcement-list div.announcement-item div.information-section div.content-section {
+    margin-bottom: 1em;
+}
+
+table.announcement-list {
+    border: unset;
+}
+
+table.announcement-list thead th {
+    background-color: unset;
+    border: unset;
+}
+
+table.announcement-list tbody td {
+    border: unset;
+}
+
+div.side-announcement img {
+    padding: 2px;
+    height:60px;
+}
+
+div.read-announcement-section label.announcment-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}

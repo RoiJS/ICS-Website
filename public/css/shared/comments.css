@@ -1,0 +1,55 @@
+.comment-date-time {
+    font-size: 0.8em;
+}
+
+ul.dropdown-menu-options {
+    box-shadow: 2px 2px 8px;
+}
+
+div.comment-list .comment-container {
+    display: flex;
+    width: 100%;
+}
+
+div.comment-list {
+    display: flex;
+    padding: 0.5em 0em 0.5em;
+}
+
+div.comment-list-section {
+   background-color: #ececec;
+}
+
+div.comment-list .comment-user-image {
+    margin-right: 1em;
+    width: 30px !important;
+    height: 30px !important;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px double #b9babb;
+}
+
+div.comment-list .comment-user-image img {
+   width: 100%;
+   height: auto; 
+}
+
+div.comment-list .comment-text {
+    margin: 0;
+    flex: 1;
+}
+
+div.new-comment-section {
+    display: flex;
+    width: 100%;
+}
+
+div.new-comment-section .user-image-container {
+    width: 32px;
+    height: 30px;
+    margin-right: 0.5em;
+}
+
+div.new-comment-section .comment-control {
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.class-details-options-panel {
+    display: flex;
+}
+
+.panel-field {
+    margin-right: 10px;
+}
+
+.course-field {
+    flex: 0.7;
+}
+
+.curriculum-field {
+    flex: 0.6;
+}
+
+.subject-field {
+    flex: 1.2;
+}
+
+.section-field {
+    flex: 0.5;
+}
+
+.current-sem-field {
+    flex: 0.3;
+}
+
+.current-school-year-field {
+    flex: 0.5;
+}
+
+.set-class-details-field {
+    flex: 0.1;
+}

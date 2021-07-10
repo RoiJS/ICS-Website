@@ -1,0 +1,50 @@
+.student-image-container {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #bdbdbd;
+    overflow: hidden;
+    margin: auto;
+}
+
+.student-image-container img {
+    width: 100%;
+}
+
+.update-profile-student-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    margin: auto;
+    border: 2px solid #bdbdbd;
+}
+
+.update-profile-student-photo img {
+    border-radius: 50%;
+    margin: auto;
+}
+
+.list-student-photo {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid #bdbdbd;
+}
+
+.list-student-photo img {
+    width: 100%;
+}
+
+table.table-student-list tr td {
+    vertical-align: middle !important;
+}
+
+table.table-student-list tr td.student-status {
+    text-align: center;
+}
+
+table.table-student-list thead td {
+    font-weight:bold;
+    text-align:center;
+}

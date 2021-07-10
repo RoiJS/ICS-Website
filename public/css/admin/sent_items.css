@@ -1,0 +1,19 @@
+table.table-sent-items td.col-sent-item-receiver {
+    width: 180px;
+}
+
+table.table-sent-items td.col-sent-item-receiver .txt-sent-item-receiver {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 170px;
+}
+
+table.table-sent-items td.col-sent-item-content .txt-sent-item-content {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 370px;
+}

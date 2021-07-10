@@ -1,0 +1,60 @@
+div.ics-box {
+    box-shadow: 1px 1px 10px #ababab;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+label.page-title {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+label {
+    cursor: unset;   
+}
+
+.footer-ics-information#footer h2 {
+   color: white;
+    font-weight: unset;
+    font-size: 1.5em;
+}
+
+.footer-ics-information-section {
+    display: flex;
+}
+
+.footer-ics-information-section p {
+    margin-top: 0;
+}
+
+.footer-ics-information-section div.ics-logo-section {
+    margin-right: 1em;
+}
+
+.footer-ics-information-section div.ics-logo-section .ics-logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 4px double #e7e7e7;
+}
+
+.footer-ics-information-section div.ics-logo-section .ics-logo img {
+    width: 100%;
+    height: auto;
+}
+
+div.breadcrumb-section.col2 {
+    background-color: #e3e3e3;
+}
+
+div.breadcrumb-section.col2 a,
+div.breadcrumb-section.col2 li
+ {
+    color: #4c4c4c;
+    background-color: unset;
+}
+
+div.footer-ics-information div.contactdetails span.ics-contact-detail {
+    font-weight: bold;
+}

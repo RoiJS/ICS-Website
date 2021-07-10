@@ -1,0 +1,29 @@
+a.delete-student-icon {
+    color: black;
+}
+
+a.icon-caret-down {
+    color: black;
+}
+
+div.widget-user-image img.student-image {
+    width: 100%;
+    height: auto;
+}
+
+div.student-information-panel {
+    display: flex;
+}
+
+div.student-information-panel .student-image-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px double #999999;
+    overflow: hidden;
+    margin-right: 0.5em;
+}
+
+div.widget-user-2 .widget-user-header{
+    padding: 0.8em 1em;
+}
